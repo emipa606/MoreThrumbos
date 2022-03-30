@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--===================== Chomper specific ====================-->
+  <BodyPartDef>
+    <defName>ModifiedBody</defName>
+    <label>modified body</label>
+    <hitPoints>60</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedBeak</defName>
+    <label>steel beak</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>1.5</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelInsectHead</defName>
+    <label>reinforced head</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ModifiedSnakeBody</defName>
+    <label>modified body</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedSnakeHead</defName>
+    <label>armored head</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelSnakeMouth</defName>
+    <label>steel mouth</label>
+    <hitPoints>40</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicInsectHeart</defName>
+    <label>bionic heart</label>
+    <hitPoints>40</hitPoints>
+    <bleedRate>5</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+      <li>BloodFiltrationSource</li>
+      <li>MetabolismSource</li>
+      <li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedInsectNostril</defName>
+    <label>steel nostril</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelInsectMouth</defName>
+    <label>steel mouth</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>EatingSource</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelAnimalJaw</defName>
+    <label>steel jaw</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelJowl</defName>
+    <label>steel jowl</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedTail</defName>
+    <label>steel tail</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>8</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>Antenna</defName>
+    <label>comms antenna</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <alive>false</alive>
+    <bleedRate>0.3</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedPronotum</defName>
+    <label>steel pronotum</label>
+    <hitPoints>40</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlaststeelShell</defName>
+    <label>plasteel shell</label>
+    <hitPoints>60</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <solid>true</solid>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>NanoFiberElytra</defName>
+    <label>nano fiber elytra</label>
+    <hitPoints>60</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelTusk</defName>
+    <label>steel tusk</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelTrunk</defName>
+    <label>steel trunk</label>
+    <hitPoints>25</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelHorn</defName>
+    <label>steel horn</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelHeadClaw</defName>
+    <label>steel head claw</label>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelHump</defName>
+    <label>steel hump</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+    <solid>false</solid>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlaststeelTurtleShell</defName>
+    <label>plaststeel shell</label>
+    <hitPoints>120</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelPlastron</defName>
+    <label>steel plastron</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelTurtleBeak</defName>
+    <label>plasteel beak</label>
+    <hitPoints>60</hitPoints>
+    <skinCovered>true</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!--===================== Insect legs =====================-->
+  <BodyPartDef>
+    <defName>SteelInsectLeg</defName>
+    <label>steel leg</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+      <li>ManipulationLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <!--===================== Paws =====================-->
+  <BodyPartDef>
+    <defName>SteelPaw</defName>
+    <label>steel paw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <!--===================== Hoofs =====================-->
+  <BodyPartDef>
+    <defName>PlasteelHoof</defName>
+    <label>plasteel hoof</label>
+    <hitPoints>40</hitPoints>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <!--===================== Claws =====================-->
+  <BodyPartDef Name="ClawBase" Abstract="True">
+    <hitPoints>15</hitPoints>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
+  </BodyPartDef>
+  <BodyPartDef ParentName="ClawBase">
+    <defName>SteelFrontClaw</defName>
+    <label>steel front claw</label>
+    <labelShort>claw</labelShort>
+    <tags>
+      <li>MovingLimbDigit</li>
+      <li>ManipulationLimbDigit</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef ParentName="ClawBase">
+    <defName>SteelRearClaw</defName>
+    <label>steel rear claw</label>
+    <labelShort>claw</labelShort>
+    <tags>
+      <li>MovingLimbDigit</li>
+    </tags>
+  </BodyPartDef>
+  <!--==================== Organs =====================-->
+  <BodyPartDef>
+    <defName>BionicHeart</defName>
+    <label>bionic heart</label>
+    <hitPoints>10</hitPoints>
+    <bleedRate>5</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicLung</defName>
+    <label>bionic lung</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BreathingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicKidney</defName>
+    <label>bionic kidney</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodFiltrationKidney</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicLiver</defName>
+    <label>bionic liver</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodFiltrationLiver</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicStomach</defName>
+    <label>bionic stomach</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+  <!--================== General =====================-->
+  <BodyPartDef>
+    <defName>SteelHead</defName>
+    <label>reinforced head</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>1</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelSkull</defName>
+    <label>plasteel skull</label>
+    <hitPoints>60</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>0</bleedRate>
+    <destroyableByDamage>false</destroyableByDamage>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ModifiedBrain</defName>
+    <label>tweaked brain</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicEye</defName>
+    <label>bionic eye</label>
+    <hitPoints>5</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>true</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicEar</defName>
+    <label>bionic ear</label>
+    <hitPoints>5</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicNose</defName>
+    <label>bionic nose</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelJaw</defName>
+    <label>steel jaw</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <beautyRelated>true</beautyRelated>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ReinforcedNeck</defName>
+    <label>reinforcedneck</label>
+    <hitPoints>30</hitPoints>
+    <bleedRate>1</bleedRate>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelRibcage</defName>
+    <label>steel ribcage</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <tags>
+      <li>BreathingSourceCage</li>
+    </tags>
+    <destroyableByDamage>false</destroyableByDamage>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelSpine</defName>
+    <label>plasteel spine</label>
+    <hitPoints>30</hitPoints>
+    <permanentInjuryChanceFactor>6</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <tags>
+      <li>Spine</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelLeg</defName>
+    <label>steel leg</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>SteelFoot</defName>
+    <label>steel foot</label>
+    <hitPoints>35</hitPoints>
+    <frostbiteVulnerability>0.5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <!--================== Thrumbo specific =====================-->
+  <BodyPartDef>
+    <defName>ThrumboModifiedBody</defName>
+    <label>thrumbo modified body</label>
+    <hitPoints>80</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ModifiedThrumboBrain</defName>
+    <label>tweaked thrumbo brain</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ArchotechThrumboEye</defName>
+    <label>bionic thrumbo eye</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <socketed>true</socketed>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelThrumboHorn</defName>
+    <label>plasteel thrumbo horn</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelBionicThrumboNose</defName>
+    <label>plasteel bionic thrumbo nose</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <solid>true</solid>
+    <bleedRate>0</bleedRate>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelThrumboHead</defName>
+    <label>plasteel thrumbo head</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canSuggestAmputation>false</canSuggestAmputation>
+    <bleedRate>0.5</bleedRate>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelThrumboNeck</defName>
+    <label>plasteel thrumbo neck</label>
+    <hitPoints>20</hitPoints>
+    <bleedRate>1</bleedRate>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>BreathingPathway</li>
+      <li>EatingPathway</li>
+      <li>TalkingPathway</li>
+    </tags>
+    <canSuggestAmputation>false</canSuggestAmputation>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicThrumboHeart</defName>
+    <label>bionic thrumbo heart</label>
+    <hitPoints>15</hitPoints>
+    <bleedRate>6</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>BionicThrumboHeartAdrenalineInjector</defName>
+    <label>bionic thrumbo heart adrenaline injector</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ThrumboBloodStreamNutrientDispenser</defName>
+    <label>blood stream nutrient dispenser</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ThrumboBloodStreamNutrientFabricator</defName>
+    <label>blood stream nutrient fabricator</label>
+    <hitPoints>5</hitPoints>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelThrumboHydraulicLeg</defName>
+    <label>plasteel thrumbo hydraulic leg</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+    <tags>
+      <li>MovingLimbCore</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>PlasteelThrumboHydraulicHoof</defName>
+    <label>plasteel thrumbo hydraulic hoof</label>
+    <hitPoints>30</hitPoints>
+    <frostbiteVulnerability>0.1</frostbiteVulnerability>
+    <skinCovered>true</skinCovered>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    <solid>true</solid>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <tags>
+      <li>MovingLimbSegment</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ThrumboBrainModification_TargetPriorityCalculationComputer</defName>
+    <label>TPCC</label>
+    <hitPoints>3</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>ThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter</defName>
+    <label>PSSEE</label>
+    <hitPoints>3</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+  <!--================== Ancient Thrumbo specific =====================-->
+  <BodyPartDef>
+    <defName>AncientThrumboBody</defName>
+    <label>ancient thrumbo body</label>
+    <hitPoints>40</hitPoints>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>AncientThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter</defName>
+    <label>PSSEE</label>
+    <hitPoints>1</hitPoints>
+    <permanentInjuryChanceFactor>9999999</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <canSuggestAmputation>true</canSuggestAmputation>
+  </BodyPartDef>
+</Defs>

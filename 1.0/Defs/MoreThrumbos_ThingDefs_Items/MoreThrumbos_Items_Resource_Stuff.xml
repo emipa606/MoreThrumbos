@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
+  <!--=============================== Wool ================================-->
+  <!--=====================================================================-->
+  <!--=====================================================================-->
+  <!--============================ GingerWool =============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ResourceBase" Name="GingerWoolBase" Abstract="True">
+    <graphicData>
+      <texPath>MoreThrumbos_Items/GingerThrumbo_Wool</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>21.7</MarketValue>
+      <Mass>0.018</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.50</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.30</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.20</StuffPower_Armor_Heat>
+    </statBases>
+    <stackLimit>250</stackLimit>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0.5</Flammability>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.0010</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="GingerWoolBase">
+    <defName>WoolGingerThrumbo</defName>
+    <label>ginger thrumbo wool</label>
+    <description>Wery soft, light and resistet Ginger Thrumbo wool. This material is well priced in any sectors due to it's properties, anyone who can find, tame and breed these magnificient animals for wool production is well worthy trader among all traders.</description>
+    <graphicData>
+      <color>(212,212,150)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.50</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(212,212,150)</color>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--============================ BlondWool ==============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ResourceBase" Name="BlondWoolBase" Abstract="True">
+    <graphicData>
+      <texPath>MoreThrumbos_Items/BlondThrumbo_Wool</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>18.5</MarketValue>
+      <Mass>0.018</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.80</StuffPower_Armor_Heat>
+    </statBases>
+    <stackLimit>250</stackLimit>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0.3</Flammability>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.0030</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="BlondWoolBase">
+    <defName>WoolBlondThrumbo</defName>
+    <label>blond thrumbo wool</label>
+    <description>Soft and light, resistet Blond Thrumbo wool. This material is well priced in any sectors due to it's rarity, anyone who can find, tame and breed these magnificient animals for wool production is well worthy trader among all traders.</description>
+    <graphicData>
+      <color>(229,229,189)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>60</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>60</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(229,229,189)</color>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--============================ WhiteWool ==============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ResourceBase" Name="WhiteWoolBase" Abstract="True">
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>27.5</MarketValue>
+      <Mass>0.018</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.20</StuffPower_Armor_Heat>
+    </statBases>
+    <stackLimit>250</stackLimit>
+    <stuffProps>
+      <statFactors>
+        <Flammability>0.3</Flammability>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.0030</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef ParentName="WhiteWoolBase">
+    <defName>WoolThrumbo</defName>
+    <label>thrumbo wool</label>
+    <description>Soft and light, extremely resistet Thrumbo wool. This material is well priced in any sectors due to it's rarity, anyone who can find, tame and breed these magnificient animals for wool production is well worthy trader among all traders.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>65</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,255,255)</color>
+    </stuffProps>
+  </ThingDef>
+</Defs>

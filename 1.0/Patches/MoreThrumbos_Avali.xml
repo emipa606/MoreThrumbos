@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="AvaliStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>AvaliStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="AvaliStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>AvaliStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="AvaliStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>AvaliStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="AvaliStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>AvaliStove</li>
+          </value>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

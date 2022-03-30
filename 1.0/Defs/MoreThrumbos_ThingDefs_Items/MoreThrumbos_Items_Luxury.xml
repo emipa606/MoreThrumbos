@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>WhiteChocolate</defName>
+    <label>white chocolate</label>
+    <description>A delicious preparation of cocoa seeds ground together with sugar and Thrumbo milk. It fulfills the need for recreation, but it is not very nutritious.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/MoreThrumbos_WhiteChocolate</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.88</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>55</MarketValue>
+      <Mass>0.085</Mass>
+      <WorkToMake>1200</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>0.3</Nutrition>
+    </statBases>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+      <foodType>Processed</foodType>
+      <joy>0.30</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+</Defs>

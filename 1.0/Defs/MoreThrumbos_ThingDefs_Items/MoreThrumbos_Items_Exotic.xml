@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>GingerThrumboHorn</defName>
+    <label>ginger thrumbo horn</label>
+    <description>A Ginger Thrumbo's horn. It's razor-sharp, steel-hard, and priceless in most markets. This is a really true trophy, as well as a more then deadly melee weapon.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/GingerThrumbo_Horn/GingerThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>25</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>BlondThrumboHorn</defName>
+    <label>blond thrumbo horn</label>
+    <description>A blond Thrumbo's horn. It's razor-sharp, steel-hard, and priceless in most markets. This is a really true trophy, as well as a more then deadly melee weapon.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/BlondThrumbo_Horn/BlondThrumboHorn</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.05</Flammability>
+      <DeteriorationRate>0.05</DeteriorationRate>
+    </statBases>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>35</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+</Defs>

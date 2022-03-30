@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MealRottable">
+    <defName>MealThrumboCheese</defName>
+    <label>thrumbo cheese</label>
+    <description>This is thrumbo Thrumbo milk cheese, it is one of best cheeses in Rim.</description>
+    <graphicData>
+      <texPath>MoreThrumbos_Items/MoreThrumbos_ThrumboCheese</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>80</MarketValue>
+      <Mass>0.085</Mass>
+      <WorkToMake>1200</WorkToMake>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>4</DeteriorationRate>
+      <Nutrition>1</Nutrition>
+    </statBases>
+    <stackLimit>25</stackLimit>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <tasteThought>AteLavishMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <joy>0.30</joy>
+      <joyKind>Gluttonous</joyKind>
+    </ingestible>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--==================== Bionic 1 specific ===========================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <BodyDef>
+    <defName>QuadrupedBionicAnimalWithClawsTailAndJowl</defName>
+    <label>quadruped animal</label>
+    <corePart>
+      <def>ModifiedBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>ReinforcedTail</def>
+          <coverage>0.05</coverage>
+          <groups>
+            <li>ReinforcedTail</li>
+          </groups>
+        </li>
+        <li>
+          <def>Antenna</def>
+          <coverage>0.05</coverage>
+        </li>
+        <li>
+          <def>PlasteelSpine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicStomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLiver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>ReinforcedNeck</def>
+          <coverage>0.24</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>SteelHead</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>SteelHeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>PlasteelSkull</def>
+                  <coverage>0.24</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>ModifiedBrain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>BionicEye</def>
+                  <customLabel>left eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>BionicEye</def>
+                  <customLabel>right eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>left ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>right ear</customLabel>
+                  <coverage>0.08</coverage>
+                </li>
+                <li>
+                  <def>BionicNose</def>
+                  <coverage>0.1</coverage>
+                </li>
+                <li>
+                  <def>SteelJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>SteelTeeth</li>
+                  </groups>
+                </li>
+                <li>
+                  <def>SteelJowl</def>
+                  <coverage>0.1</coverage>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SteelLeg</def>
+          <customLabel>front left leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front left leg first claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontLeftClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front left leg second claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontLeftClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front left leg third claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontLeftClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front left leg fourth claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontLeftClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front left leg fifth claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontLeftClaws</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SteelLeg</def>
+          <customLabel>front right leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front right leg first claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontRightClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front right leg second claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontRightClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front right leg third claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontRightClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front right leg fourth claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontRightClaws</li>
+              </groups>
+            </li>
+            <li>
+              <def>SteelFrontClaw</def>
+              <customLabel>front right leg fifth claw</customLabel>
+              <coverage>0.05</coverage>
+              <groups>
+                <li>FrontRightClaws</li>
+              </groups>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SteelLeg</def>
+          <customLabel>rear left leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear left leg first claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear left leg second claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear left leg third claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear left leg fourth claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear left leg fifth claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SteelLeg</def>
+          <customLabel>rear right leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear right leg first claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear right leg second claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear right leg third claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear right leg fourth claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+            <li>
+              <def>SteelRearClaw</def>
+              <customLabel>rear right leg fifth claw</customLabel>
+              <coverage>0.05</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!--===================== THRUMBO specific ===========================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <BodyDef>
+    <defName>ThrumboQuadrupedAnimalWithHoovesAndHorn</defName>
+    <label>quadruped animal</label>
+    <corePart>
+      <def>ThrumboModifiedBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>PlasteelSpine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicStomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>ThrumboBloodStreamNutrientFabricator</def>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>ThrumboBloodStreamNutrientDispenser</def>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>SteelRibcage</def>
+          <coverage>0.08</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>BionicThrumboHeart</def>
+              <coverage>0.03</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>BionicThrumboHeartAdrenalineInjector</def>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLiver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PlasteelThrumboNeck</def>
+          <coverage>0.28</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHead</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>PlasteelHeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>PlasteelSkull</def>
+                  <coverage>0.15</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>ModifiedThrumboBrain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                      <parts>
+                        <li>
+                          <def>ThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter</def>
+                          <coverage>0.3</coverage>
+                          <depth>Inside</depth>
+                        </li>
+                        <li>
+                          <def>ThrumboBrainModification_TargetPriorityCalculationComputer</def>
+                          <coverage>0.3</coverage>
+                          <depth>Inside</depth>
+                        </li>
+                      </parts>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>ArchotechThrumboEye</def>
+                  <customLabel>left archotech eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>ArchotechThrumboEye</def>
+                  <customLabel>right archotech eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>left bionic ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>right bionic ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>PlasteelBionicThrumboNose</def>
+                  <coverage>0.35</coverage>
+                  <parts>
+                    <li>
+                      <def>PlasteelThrumboHorn</def>
+                      <coverage>0.85</coverage>
+                      <groups>
+                        <li>PlasteelHornAttackTool</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>SteelAnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>SteelTeeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>front left steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>FrontLeftPlasteelHydraulicLeg</li>
+          </groups>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>front left plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>front right steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>FrontRightPlasteelHydraulicLeg</li>
+          </groups>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>front right plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>rear left steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>rear left plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>rear right steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>rear right plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+  <!--================ Ancient THRUMBO specific ========================-->
+  <!--==================================================================-->
+  <!--==================================================================-->
+  <BodyDef>
+    <defName>AncientThrumboQuadrupedAnimalWithHoovesAndHorn</defName>
+    <label>quadruped animal</label>
+    <corePart>
+      <def>AncientThrumboBody</def>
+      <height>Middle</height>
+      <depth>Outside</depth>
+      <parts>
+        <li>
+          <def>PlasteelSpine</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicStomach</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>ThrumboBloodStreamNutrientFabricator</def>
+              <coverage>0.1</coverage>
+              <depth>Inside</depth>
+              <parts>
+                <li>
+                  <def>ThrumboBloodStreamNutrientDispenser</def>
+                  <coverage>0.08</coverage>
+                  <depth>Inside</depth>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>BionicThrumboHeart</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+          <parts>
+            <li>
+              <def>BionicThrumboHeartAdrenalineInjector</def>
+              <coverage>0.08</coverage>
+              <depth>Inside</depth>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>left lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLung</def>
+          <customLabel>right lung</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>left kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicKidney</def>
+          <customLabel>right kidney</customLabel>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>BionicLiver</def>
+          <coverage>0.03</coverage>
+          <depth>Inside</depth>
+        </li>
+        <li>
+          <def>PlasteelThrumboNeck</def>
+          <coverage>0.28</coverage>
+          <height>Top</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHead</def>
+              <coverage>0.75</coverage>
+              <groups>
+                <li>PlasteelHeadAttackTool</li>
+              </groups>
+              <parts>
+                <li>
+                  <def>PlasteelSkull</def>
+                  <coverage>0.15</coverage>
+                  <depth>Inside</depth>
+                  <parts>
+                    <li>
+                      <def>ModifiedThrumboBrain</def>
+                      <coverage>0.7</coverage>
+                      <depth>Inside</depth>
+                      <parts>
+                        <li>
+                          <def>AncientThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter</def>
+                          <coverage>0.3</coverage>
+                          <depth>Inside</depth>
+                        </li>
+                      </parts>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>ArchotechThrumboEye</def>
+                  <customLabel>left archotech eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>ArchotechThrumboEye</def>
+                  <customLabel>right archotech eye</customLabel>
+                  <coverage>0.09</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>left bionic ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>BionicEar</def>
+                  <customLabel>right bionic ear</customLabel>
+                  <coverage>0.06</coverage>
+                </li>
+                <li>
+                  <def>PlasteelBionicThrumboNose</def>
+                  <coverage>0.35</coverage>
+                  <parts>
+                    <li>
+                      <def>PlasteelThrumboHorn</def>
+                      <coverage>0.85</coverage>
+                      <groups>
+                        <li>PlasteelHornAttackTool</li>
+                      </groups>
+                    </li>
+                  </parts>
+                </li>
+                <li>
+                  <def>SteelAnimalJaw</def>
+                  <coverage>0.1</coverage>
+                  <groups>
+                    <li>SteelTeeth</li>
+                  </groups>
+                </li>
+              </parts>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>front left steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>FrontLeftPlasteelHydraulicLeg</li>
+          </groups>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>front left plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>front right steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>FrontRightPlasteelHydraulicLeg</li>
+          </groups>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>front right plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>rear left steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>rear left plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+        <li>
+          <def>PlasteelThrumboHydraulicLeg</def>
+          <customLabel>rear right steel leg</customLabel>
+          <coverage>0.065</coverage>
+          <height>Bottom</height>
+          <parts>
+            <li>
+              <def>PlasteelThrumboHydraulicHoof</def>
+              <customLabel>rear right plasteel hydraulic hoof</customLabel>
+              <coverage>0.15</coverage>
+            </li>
+          </parts>
+        </li>
+      </parts>
+    </corePart>
+  </BodyDef>
+</Defs>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--========== GingerThrumboLeather ============-->
+  <ThingDef ParentName="LeatherBase">
+    <defName>GingerThrumboLeather</defName>
+    <label>ginger thrumbo fur</label>
+    <description>Furry pelt of a ginger thrumbo. Luxurious and extraordinarily durable. Used for the highest-quality crafts for its insulation and strength. This is most valued fur in all sectors due to its rarity.</description>
+    <graphicData>
+      <color>(135,135,85)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>18.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.28</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.66</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>50</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(135,135,85)</color>
+      <commonality>0.0010</commonality>
+      <statFactors>
+        <MaxHitPoints>6.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!--============ BlondThrumboLeather ============-->
+  <ThingDef ParentName="LeatherBase">
+    <defName>BlondThrumboLeather</defName>
+    <label>blond thrumbo fur</label>
+    <description>Furry pelt of a blond thrumbo. Luxurious and extraordinarily durable. Used for the high-quality crafts for its insulation. This is wery well valued fur in all sectors due to its rarity.</description>
+    <graphicData>
+      <color>(229,229,189)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>12.8</MarketValue>
+      <StuffPower_Armor_Sharp>1.88</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.46</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>85</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>65</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(229,229,189)</color>
+      <commonality>0.0020</commonality>
+      <statFactors>
+        <MaxHitPoints>6.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>
