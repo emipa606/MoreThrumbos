@@ -1,5 +1,8 @@
 # Changelog for MoreThrumbos
 
+1.3.2 - Fixed a typo again
+
+
 1.3.1 - Fixed a typo
 
 

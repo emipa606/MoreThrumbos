@@ -4,23 +4,18 @@
 
 Update of Cenbess mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1789924054
+with permission
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
-DISCLAIMER (Writen 30. 3.2022)
-MOD IS NOW BEING MAINTAINED BY OUR WONDERFULL "mlie", GO SEND HIM SOME LOVE FOR KEEPING BELOVED MDOS ALIVE. UPDATE CAN BE FOUND HERE:
-https://steamcommunity.com/sharedfiles/filedetails/?id=2786832432
-
-I WILL NO LONGER MAINTAIN OR MOD RIMWORLD ASIDE SOME MINOR HELP TO FRIENDS. IF THINGS CHANGE IDK, BUT NOW I WILL NOT BE PRODUCING ANYTHING ELSE.
+DISCLAIMER (Writen 3.11.2020)
+My tiem now is very limited due to complications made by Covid-19. This mod is not death and i'm not even considering about it. I will continue updates when my time will be more free and there will be much less complications ahead. Thank you all for your patience and support by playing mod itself. Good luck and ease with these torublesome times!
 
 # **More Thrumbos**
 
-
-Join my discord to debate about my projects and chat with great ppl. :3
-https://discord.gg/xP6BYSk
 
 Version _1.4.5
 
