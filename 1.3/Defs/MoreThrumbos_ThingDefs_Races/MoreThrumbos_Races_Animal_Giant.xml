@@ -309,6 +309,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>BlondThrumboPawn</defName>
     <label>Blond thrumbo</label>
+    <labelFemale>Blonde thrumbo</labelFemale>
     <race>BlondThrumbo</race>
     <combatPower>500</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
