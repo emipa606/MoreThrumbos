@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Thrumbo"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Thrumbo"]</xpath>
+          <value>
+            <comps>
+              <li Class="CompProperties_Shearable">
+                <woolDef>WhiteThrumboWool</woolDef>
+                <shearIntervalDays>26</shearIntervalDays>
+                <woolAmount>300</woolAmount>
+              </li>
+              <li Class="CompProperties_Milkable">
+                <milkDef>ThrumboMilk</milkDef>
+                <milkIntervalDays>8</milkIntervalDays>
+                <milkAmount>40</milkAmount>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Thrumbo"]/comps</xpath>
+          <value>
+            <li Class="CompProperties_Shearable">
+              <woolDef>WhiteThrumboWool</woolDef>
+              <shearIntervalDays>26</shearIntervalDays>
+              <woolAmount>300</woolAmount>
+            </li>
+            <li Class="CompProperties_Milkable">
+              <milkDef>ThrumboMilk</milkDef>
+              <milkIntervalDays>8</milkIntervalDays>
+              <milkAmount>40</milkAmount>
+            </li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Thrumbo"]/statBases/MarketValue</xpath>
+        <value>
+          <MarketValue>24000</MarketValue>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="ThrumboHorn"]/statBases/MarketValue</xpath>
+        <value>
+          <MarketValue>2400</MarketValue>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Thrumbo"]/label</xpath>
+        <value>
+          <label>white thrumbo</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[defName="Thrumbo"]/label</xpath>
+        <value>
+          <label>white thrumbo</label>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

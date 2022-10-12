@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Chompers are messing with cables again, where is Alpha when you need one?
+		
+				<li Class="PatchOperationTest">
+				  <xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="RGK_FueledStove"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="RGK_FueledStove"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="GL_ElectricStove"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="GL_ElectricStove"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="GL_ElectricStove"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="GL_Bonfire"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="GL_Bonfire"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="GL_Bonfire"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+			-->
+      <!-- RGK_FueledStove -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>RGK_FueledStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>RGK_FueledStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>RGK_FueledStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="RGK_FueledStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>RGK_FueledStove</li>
+          </value>
+        </match>
+      </li>
+      <!-- GL_ElectricStove -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_ElectricStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>GL_ElectricStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_ElectricStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>GL_ElectricStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_ElectricStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>GL_ElectricStove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_ElectricStove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>GL_ElectricStove</li>
+          </value>
+        </match>
+      </li>
+      <!-- GL_Bonfire -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_Bonfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>GL_Bonfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_Bonfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>GL_Bonfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_Bonfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>GL_Bonfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GL_Bonfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>GL_Bonfire</li>
+          </value>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
