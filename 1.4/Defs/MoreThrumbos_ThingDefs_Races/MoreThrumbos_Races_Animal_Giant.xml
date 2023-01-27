@@ -620,6 +620,7 @@
       <meatLabel>Thrumbo Meat</meatLabel>
       <leatherDef>Leather_Thrumbo</leatherDef>
       <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
       <gestationPeriodDays>20</gestationPeriodDays>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.685</wildness>
