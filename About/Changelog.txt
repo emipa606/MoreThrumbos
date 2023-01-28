@@ -1,5 +1,8 @@
 # Changelog for MoreThrumbos
 
+1.4.2 - Thrumbos can be pack animals now, thanks Vexthecollector
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
