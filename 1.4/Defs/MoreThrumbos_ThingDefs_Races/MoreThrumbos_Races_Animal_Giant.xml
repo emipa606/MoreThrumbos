@@ -91,6 +91,10 @@
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.585</wildness>
       <lifeExpectancy>180</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -273,6 +277,10 @@
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
       <wildness>0.485</wildness>
       <lifeExpectancy>480</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -444,6 +452,10 @@
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.485</wildness>
       <lifeExpectancy>3820</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -625,6 +637,10 @@
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.685</wildness>
       <lifeExpectancy>2820</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -811,6 +827,10 @@
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <wildness>0.785</wildness>
       <lifeExpectancy>1850</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -993,6 +1013,10 @@
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
       <wildness>0.485</wildness>
       <lifeExpectancy>480</lifeExpectancy>
+      <willNeverEat>
+        <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+      </willNeverEat>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
