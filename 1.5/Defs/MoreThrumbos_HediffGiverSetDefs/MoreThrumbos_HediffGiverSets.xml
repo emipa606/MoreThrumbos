@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffGiverSetDef>
+    <defName>OrganicGingerThrumbo</defName>
+    <hediffGivers>
+      <!-- Environmental -->
+      <li Class="HediffGiver_Bleeding">
+        <hediff>GingerThrumboRage</hediff>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+  <HediffGiverSetDef>
+    <defName>OrganicBlondThrumbo</defName>
+    <hediffGivers>
+      <!-- Environmental -->
+      <li Class="HediffGiver_Bleeding">
+        <hediff>BlondThrumboRage</hediff>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>

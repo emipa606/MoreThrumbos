@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--================ Head ========================-->
+  <BodyPartGroupDef>
+    <defName>SteelHeadAttackTool</defName>
+    <label>head</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>ReinforcedTail</defName>
+    <label>tail</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>PlasteelHornAttackTool</defName>
+    <label>horn</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>SteelTeeth</defName>
+    <label>teeth</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>PlasteelHeadAttackTool</defName>
+    <label>plasteel head</label>
+  </BodyPartGroupDef>
+  <!--================ Legs ========================-->
+  <BodyPartGroupDef>
+    <defName>FrontLeftSteelLeg</defName>
+    <label>front left leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>FrontRightSteelLeg</defName>
+    <label>front right leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>FrontLeftPlasteelLeg</defName>
+    <label>front left leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>FrontRightPlasteelLeg</defName>
+    <label>front right leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>FrontLeftPlasteelHydraulicLeg</defName>
+    <label>front left leg</label>
+  </BodyPartGroupDef>
+  <BodyPartGroupDef>
+    <defName>FrontRightPlasteelHydraulicLeg</defName>
+    <label>front right leg</label>
+  </BodyPartGroupDef>
+</Defs>

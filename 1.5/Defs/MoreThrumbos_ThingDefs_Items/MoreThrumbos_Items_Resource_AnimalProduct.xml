@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
+  <!--============================ Milk :3 ================================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>ThrumboMilk</defName>
+    <label>thrumbo milk</label>
+    <description>Milk from a Thrumbo.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Milk</texPath>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MarketValue>40.1</MarketValue>
+      <Mass>0.075</Mass>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Nutrition>0.5</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>5</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>MealLavish</preferability>
+      <foodType>AnimalProduct, Fluid</foodType>
+    </ingestible>
+    <thingCategories>
+      <li>AnimalProductRaw</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

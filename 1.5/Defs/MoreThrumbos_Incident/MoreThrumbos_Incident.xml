@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>ColoredThrumbo</defName>
+    <label>mysterious thrumbos pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Thrumbo.IncidentWorker_SpecialWorker</workerClass>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>8</minRefireDays>
+  </IncidentDef>
+</Defs>
