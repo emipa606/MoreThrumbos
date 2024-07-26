@@ -1,4 +1,4 @@
-# MoreThrumbos
+# [More Thrumbos (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2786832432)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -6,10 +6,9 @@ Update of Cenbess mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1789924054
 with permission
 
-- https://steamcommunity.com/sharedfiles/filedetails/?id=2849164933]Retexture mod by Maximilian
+- [Retexture mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2849164933) by Maximilian
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -62,7 +61,7 @@ This is simple mod that adds one animal and all it's products. Thrumbos can ariv
 
 - Data entry corrupted...
 
-# [u]**Compatibility:**[/u]
+# <ins>**Compatibility:**</ins>
 
 For maximum compatibility you shoud follow this load order:
 -Core
@@ -79,9 +78,9 @@ Avali
 
 # Credits:
 
-Thanks [u]**Mlie**[/u] for helping me with C# code and updating while i had thigns around and helping me push update earlier.
-Thanks [u]**Kasmex**[/u] for making cool looking preview.
-Thanks [u]**Ogliss**[/u] for helping me with patches.
+Thanks <ins>**Mlie**</ins> for helping me with C# code and updating while i had thigns around and helping me push update earlier.
+Thanks <ins>**Kasmex**</ins> for making cool looking preview.
+Thanks <ins>**Ogliss**</ins> for helping me with patches.
 
 # Changelog:
 
@@ -129,13 +128,12 @@ Thanks [u]**Ogliss**[/u] for helping me with patches.
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2786832432]![Image](https://img.shields.io/github/v/release/emipa606/MoreThrumbos?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/MoreThrumbos?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2786832432)

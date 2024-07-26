@@ -1,5 +1,8 @@
 # Changelog for MoreThrumbos
 
+1.5.1 - Added caravan riding speed stat
+
+
 1.5.0 - Updated for 1.5
 
 

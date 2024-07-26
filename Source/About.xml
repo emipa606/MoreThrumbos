@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>More Thrumbos</name>
   <packageId>Cenbes.MoreThrumbos</packageId>
@@ -9,26 +9,26 @@
     <li>1.1</li>
   </supportedVersions>
   <description>Version: 1.3.0
-&lt;color=yellow&gt;&lt;b&gt;More Thrumbos mod&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;This is mod adds Thrumbos and products from them. You can find a several wild Thrumbos and try to tame it for utility, milk and wool, or kill it for meat, leather and horn. They give wool and milk than can be crafted to chesse or chocolate.
+&lt;color=yellow>&lt;b>More Thrumbos mod&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>This is mod adds Thrumbos and products from them. You can find a several wild Thrumbos and try to tame it for utility, milk and wool, or kill it for meat, leather and horn. They give wool and milk than can be crafted to chesse or chocolate.
 
 Be aware, Tal'arian Thrumbos are more resistant and bigger. They can be a real threat if enraged, or they can be really good combat or caravan animals. With Giddy Up they can work as cool War mounts.
 Blond Thrumbos are faster and smaller. They can be a good cavalery or they can be used as caravan animals for quick trades. With Giddy Up they can work as speed utility mounts for tasks on bigger maps or kitting enemy forces.
-&lt;/b&gt;&lt;/color&gt;
-&lt;color=yellow&gt;&lt;b&gt;Copatibility:&lt;/b&gt;&lt;/color&gt;
-&lt;color=yellow&gt;&lt;b&gt;For maximum compatibility you shoud follow this load order:&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;-Core&lt;/b&gt;&lt;/color&gt;
-&lt;color=blue&gt;&lt;b&gt;-...&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;-Giddy-Up! Add-on: Animal Saddles&lt;/b&gt;&lt;/color&gt;
-&lt;color=blue&gt;&lt;b&gt;-...&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;-Animal Gear Basic&lt;/b&gt;&lt;/color&gt;
-&lt;color=blue&gt;&lt;b&gt;-...&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;-VGP Garden Gourmet&lt;/b&gt;&lt;/color&gt;
-&lt;color=blue&gt;&lt;b&gt;-...&lt;/b&gt;&lt;/color&gt;
-&lt;color=cyan&gt;&lt;b&gt;-More Thrumbos&lt;/b&gt;&lt;/color&gt;
+&lt;/b>&lt;/color>
+&lt;color=yellow>&lt;b>Copatibility:&lt;/b>&lt;/color>
+&lt;color=yellow>&lt;b>For maximum compatibility you shoud follow this load order:&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>-Core&lt;/b>&lt;/color>
+&lt;color=blue>&lt;b>-...&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>-Giddy-Up! Add-on: Animal Saddles&lt;/b>&lt;/color>
+&lt;color=blue>&lt;b>-...&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>-Animal Gear Basic&lt;/b>&lt;/color>
+&lt;color=blue>&lt;b>-...&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>-VGP Garden Gourmet&lt;/b>&lt;/color>
+&lt;color=blue>&lt;b>-...&lt;/b>&lt;/color>
+&lt;color=cyan>&lt;b>-More Thrumbos&lt;/b>&lt;/color>
 
-&lt;color=orange&gt;&lt;b&gt;Big time thanks Mlie for help with C# code in time i had thigns around and helping me push update sooner.&lt;/b&gt;&lt;/color&gt;
-&lt;color=orange&gt;&lt;b&gt;Thanks Ogliss for helping me with patches.&lt;/b&gt;&lt;/color&gt;
-&lt;color=orange&gt;&lt;b&gt;Thanks Kasmex for making nice looking preview.&lt;/b&gt;&lt;/color&gt;
+&lt;color=orange>&lt;b>Big time thanks Mlie for help with C# code in time i had thigns around and helping me push update sooner.&lt;/b>&lt;/color>
+&lt;color=orange>&lt;b>Thanks Ogliss for helping me with patches.&lt;/b>&lt;/color>
+&lt;color=orange>&lt;b>Thanks Kasmex for making nice looking preview.&lt;/b>&lt;/color>
   </description>
 </ModMetaData>

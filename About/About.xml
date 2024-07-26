@@ -147,6 +147,5 @@ Thanks [u][b]Ogliss[/b][/u] for helping me with patches.
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2786832432][img]https://img.shields.io/github/v/release/emipa606/MoreThrumbos?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modIconPath IgnoreIfNoMatchingField="True">ModIcon/MoreThrumbos</modIconPath>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
 </ModMetaData>
