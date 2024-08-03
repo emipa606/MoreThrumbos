@@ -161,13 +161,25 @@
     </tools>
   </ThingDef>
   <!--=============== TalAlarian Black Thrumbo Horn ====================-->
-  <ThingDef ParentName="ThrumboHornBase">
+  <ThingDef ParentName="ResourceBase">
     <defName>BlackThrumboHorn</defName>
     <label>black thrumbo horn</label>
     <description>A black Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</description>
     <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
       <texPath>New/MoreThrumbos_Items/BlackThrumboHorn/BlackThrumboHorn</texPath>
     </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>16</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>true</useHitPoints>
@@ -176,25 +188,7 @@
       <MaxHitPoints>250</MaxHitPoints>
       <Mass>8</Mass>
     </statBases>
-    <tools>
-      <li>
-        <label>point</label>
-        <capacities>
-          <li>Scratch</li>
-          <li>Stab</li>
-        </capacities>
-        <power>25</power>
-        <cooldownTime>1</cooldownTime>
-      </li>
-      <li>
-        <label>base</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>13</power>
-        <cooldownTime>1.2</cooldownTime>
-      </li>
-    </tools>
+    <tools Inherit="False" />
   </ThingDef>
   <!--=============== TalAlarian Silver Thrumbo Horn ====================-->
   <ThingDef ParentName="ThrumboHornBase">
