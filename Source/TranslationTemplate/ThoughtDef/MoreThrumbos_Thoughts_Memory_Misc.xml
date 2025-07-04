@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Creepy sounds -->
+  <AncientAngryThrumboNoises.stages.Creepy_sounds.label>Creepy sounds</AncientAngryThrumboNoises.stages.Creepy_sounds.label>
+  <!-- EN: Terrifying sounds were coming from that Thrumbo... I want to get away. -->
+  <AncientAngryThrumboNoises.stages.Creepy_sounds.description>Terrifying sounds were coming from that Thrumbo... I want to get away.</AncientAngryThrumboNoises.stages.Creepy_sounds.description>
+  <!-- EN: nice weird sounds -->
+  <AncientHappyThrumboNoises.stages.nice_weird_sounds.label>nice weird sounds</AncientHappyThrumboNoises.stages.nice_weird_sounds.label>
+  <!-- EN: That Thrumbo tried its best to be nice. I'm happy. -->
+  <AncientHappyThrumboNoises.stages.nice_weird_sounds.description>That Thrumbo tried its best to be nice. I'm happy.</AncientHappyThrumboNoises.stages.nice_weird_sounds.description>
+  <!-- EN: Creepy sounds -->
+  <AngryThrumboNoises.stages.Creepy_sounds.label>Creepy sounds</AngryThrumboNoises.stages.Creepy_sounds.label>
+  <!-- EN: Ominous sounds were coming from this Thrumbo... I'm afraid to face it. -->
+  <AngryThrumboNoises.stages.Creepy_sounds.description>Ominous sounds were coming from this Thrumbo... I'm afraid to face it.</AngryThrumboNoises.stages.Creepy_sounds.description>
+  <!-- EN: nice sounds -->
+  <HappyThrumboNoises.stages.nice_sounds.label>nice sounds</HappyThrumboNoises.stages.nice_sounds.label>
+  <!-- EN: That Thrumbo was so nice. I want to hear more! -->
+  <HappyThrumboNoises.stages.nice_sounds.description>That Thrumbo was so nice. I want to hear more!</HappyThrumboNoises.stages.nice_sounds.description>
+  <!-- EN: strange feeling -->
+  <ThrumboControllerDefeated.stages.strange_feeling.label>strange feeling</ThrumboControllerDefeated.stages.strange_feeling.label>
+  <!-- EN: We defeated the machine controlling those Thrumbos and set them free. I feel strange, but also very relaxed. -->
+  <ThrumboControllerDefeated.stages.strange_feeling.description>We defeated the machine controlling those Thrumbos and set them free. I feel strange, but also very relaxed.</ThrumboControllerDefeated.stages.strange_feeling.description>
+</LanguageData>

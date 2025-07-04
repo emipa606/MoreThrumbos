@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>AngryThrumboNoises</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>3</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Creepy sounds</label>
+        <description>Ominous sounds were coming from this Thrumbo... I'm afraid to face it.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AncientAngryThrumboNoises</defName>
+    <icon>Things/Mote/ThoughtSymbol/Skull</icon>
+    <showBubble>true</showBubble>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>5</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>Creepy sounds</label>
+        <description>Terrifying sounds were coming from that Thrumbo... I want to get away.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>HappyThrumboNoises</defName>
+    <icon>Things/ThoughtSymbol/Happy</icon>
+    <showBubble>true</showBubble>
+    <durationDays>1</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>2</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>nice sounds</label>
+        <description>That Thrumbo was so nice. I want to hear more!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>AncientHappyThrumboNoises</defName>
+    <icon>Things/ThoughtSymbol/Happy</icon>
+    <showBubble>true</showBubble>
+    <durationDays>1</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>1</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>nice weird sounds</label>
+        <description>That Thrumbo tried its best to be nice. I'm happy.</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>ThrumboControllerDefeated</defName>
+    <durationDays>5.0</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>strange feeling</label>
+        <description>We defeated the machine controlling those Thrumbos and set them free. I feel strange, but also very relaxed.</description>
+        <baseMoodEffect>40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

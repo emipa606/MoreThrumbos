@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ancient thrumbo body -->
+  <AncientThrumboBody.label>ancient thrumbo body</AncientThrumboBody.label>
+  <!-- EN: PSSEE -->
+  <AncientThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter.label>PSSEE</AncientThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter.label>
+  <!-- EN: bionic thrumbo eye -->
+  <ArchotechThrumboEye.label>bionic thrumbo eye</ArchotechThrumboEye.label>
+  <!-- EN: bionic nose -->
+  <BionicNose.label>bionic nose</BionicNose.label>
+  <!-- EN: bionic thrumbo heart -->
+  <BionicThrumboHeart.label>bionic thrumbo heart</BionicThrumboHeart.label>
+  <!-- EN: bionic thrumbo heart adrenaline injector -->
+  <BionicThrumboHeartAdrenalineInjector.label>bionic thrumbo heart adrenaline injector</BionicThrumboHeartAdrenalineInjector.label>
+  <!-- EN: bionic kidney -->
+  <BionicThrumboKidney.label>bionic kidney</BionicThrumboKidney.label>
+  <!-- EN: bionic liver -->
+  <BionicThrumboLiver.label>bionic liver</BionicThrumboLiver.label>
+  <!-- EN: bionic lung -->
+  <BionicThrumboLung.label>bionic lung</BionicThrumboLung.label>
+  <!-- EN: bionic stomach -->
+  <BionicThrumboStomach.label>bionic stomach</BionicThrumboStomach.label>
+  <!-- EN: tweaked brain -->
+  <ModifiedBrain.label>tweaked brain</ModifiedBrain.label>
+  <!-- EN: tweaked thrumbo brain -->
+  <ModifiedThrumboBrain.label>tweaked thrumbo brain</ModifiedThrumboBrain.label>
+  <!-- EN: plasteel bionic thrumbo nose -->
+  <PlasteelBionicThrumboNose.label>plasteel bionic thrumbo nose</PlasteelBionicThrumboNose.label>
+  <!-- EN: plasteel skull -->
+  <PlasteelSkull.label>plasteel skull</PlasteelSkull.label>
+  <!-- EN: plasteel spine -->
+  <PlasteelSpine.label>plasteel spine</PlasteelSpine.label>
+  <!-- EN: plasteel thrumbo head -->
+  <PlasteelThrumboHead.label>plasteel thrumbo head</PlasteelThrumboHead.label>
+  <!-- EN: plasteel thrumbo horn -->
+  <PlasteelThrumboHorn.label>plasteel thrumbo horn</PlasteelThrumboHorn.label>
+  <!-- EN: plasteel thrumbo hydraulic hoof -->
+  <PlasteelThrumboHydraulicHoof.label>plasteel thrumbo hydraulic hoof</PlasteelThrumboHydraulicHoof.label>
+  <!-- EN: plasteel thrumbo hydraulic leg -->
+  <PlasteelThrumboHydraulicLeg.label>plasteel thrumbo hydraulic leg</PlasteelThrumboHydraulicLeg.label>
+  <!-- EN: plasteel thrumbo neck -->
+  <PlasteelThrumboNeck.label>plasteel thrumbo neck</PlasteelThrumboNeck.label>
+  <!-- EN: reinforcedneck -->
+  <ReinforcedNeck.label>reinforcedneck</ReinforcedNeck.label>
+  <!-- EN: steel foot -->
+  <SteelFoot.label>steel foot</SteelFoot.label>
+  <!-- EN: reinforced head -->
+  <SteelHead.label>reinforced head</SteelHead.label>
+  <!-- EN: steel jaw -->
+  <SteelJaw.label>steel jaw</SteelJaw.label>
+  <!-- EN: steel leg -->
+  <SteelLeg.label>steel leg</SteelLeg.label>
+  <!-- EN: steel ribcage -->
+  <SteelRibcage.label>steel ribcage</SteelRibcage.label>
+  <!-- EN: bionic ear -->
+  <ThrumboBionicEar.label>bionic ear</ThrumboBionicEar.label>
+  <!-- EN: blood stream nutrient dispenser -->
+  <ThrumboBloodStreamNutrientDispenser.label>blood stream nutrient dispenser</ThrumboBloodStreamNutrientDispenser.label>
+  <!-- EN: blood stream nutrient fabricator -->
+  <ThrumboBloodStreamNutrientFabricator.label>blood stream nutrient fabricator</ThrumboBloodStreamNutrientFabricator.label>
+  <!-- EN: DmgPL -->
+  <ThrumboBrainModification_DamagedProtocolLibrary.label>DmgPL</ThrumboBrainModification_DamagedProtocolLibrary.label>
+  <!-- EN: DmgTPCC -->
+  <ThrumboBrainModification_DamagedTargetPriorityCalculationComputer.label>DmgTPCC</ThrumboBrainModification_DamagedTargetPriorityCalculationComputer.label>
+  <!-- EN: PSSEE -->
+  <ThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter.label>PSSEE</ThrumboBrainModification_PersonalitySpeakingSocialEmotionalEnchanter.label>
+  <!-- EN: PL -->
+  <ThrumboBrainModification_ProtocolLibrary.label>PL</ThrumboBrainModification_ProtocolLibrary.label>
+  <!-- EN: TPCC -->
+  <ThrumboBrainModification_TargetPriorityCalculationComputer.label>TPCC</ThrumboBrainModification_TargetPriorityCalculationComputer.label>
+  <!-- EN: thrumbo modified body -->
+  <ThrumboModifiedBody.label>thrumbo modified body</ThrumboModifiedBody.label>
+</LanguageData>

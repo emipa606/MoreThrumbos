@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bionic damaged thrumbo -->
+  <BionicDamagedThrumbo.label>bionic damaged thrumbo</BionicDamagedThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared. This one has seen better days, and is worn down from age and combat. -->
+  <BionicDamagedThrumbo.description>A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared. This one has seen better days, and is worn down from age and combat.</BionicDamagedThrumbo.description>
+  <!-- EN: Thrumbo Meat -->
+  <BionicDamagedThrumbo.race.meatLabel>Thrumbo Meat</BionicDamagedThrumbo.race.meatLabel>
+  <!-- EN: plasteel horn -->
+  <BionicDamagedThrumbo.tools.plasteel_horn.label>plasteel horn</BionicDamagedThrumbo.tools.plasteel_horn.label>
+  <!-- EN: left hydraulic foot -->
+  <BionicDamagedThrumbo.tools.left_hydraulic_foot.label>left hydraulic foot</BionicDamagedThrumbo.tools.left_hydraulic_foot.label>
+  <!-- EN: right hydraulic foot -->
+  <BionicDamagedThrumbo.tools.right_hydraulic_foot.label>right hydraulic foot</BionicDamagedThrumbo.tools.right_hydraulic_foot.label>
+  <!-- EN: head -->
+  <BionicDamagedThrumbo.tools.head.label>head</BionicDamagedThrumbo.tools.head.label>
+  <!-- EN: bionic thrumbo -->
+  <BionicThrumbo.label>bionic thrumbo</BionicThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared. -->
+  <BionicThrumbo.description>A gigantic, graceful creature of unknown origin. Shaped as a brilliant machine of war, it is built with an assembler capable of producing another bionic Thrumbo. Sexual reproduction is still a must, as the care of a mother and father ensure their survival. These creatures are built-in with a nutrient dispenser to supply themselves with a long-term source of energy and nutrition. Armed with a full plasteel skeleton, hydraulic jaw, and heavy metallic horn, these Thrumbos are not to be challenged by those unprepared.</BionicThrumbo.description>
+  <!-- EN: Thrumbo Meat -->
+  <BionicThrumbo.race.meatLabel>Thrumbo Meat</BionicThrumbo.race.meatLabel>
+  <!-- EN: plasteel horn -->
+  <BionicThrumbo.tools.plasteel_horn.label>plasteel horn</BionicThrumbo.tools.plasteel_horn.label>
+  <!-- EN: left foot -->
+  <BionicThrumbo.tools.left_foot.label>left foot</BionicThrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <BionicThrumbo.tools.right_foot.label>right foot</BionicThrumbo.tools.right_foot.label>
+  <!-- EN: plasteel head -->
+  <BionicThrumbo.tools.plasteel_head.label>plasteel head</BionicThrumbo.tools.plasteel_head.label>
+  <!-- EN: black thrumbo -->
+  <BlackThrumbo.label>black thrumbo</BlackThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. -->
+  <BlackThrumbo.description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.
+
+Legends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down.</BlackThrumbo.description>
+  <!-- EN: horn -->
+  <BlackThrumbo.tools.horn.label>horn</BlackThrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <BlackThrumbo.tools.left_foot.label>left foot</BlackThrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <BlackThrumbo.tools.right_foot.label>right foot</BlackThrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <BlackThrumbo.tools.head.label>head</BlackThrumbo.tools.head.label>
+  <!-- EN: Blond thrumbo -->
+  <BlondThrumbo.label>Blond thrumbo</BlondThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. -->
+  <BlondThrumbo.description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.
+
+Legends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down.</BlondThrumbo.description>
+  <!-- EN: horn -->
+  <BlondThrumbo.tools.horn.label>horn</BlondThrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <BlondThrumbo.tools.left_foot.label>left foot</BlondThrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <BlondThrumbo.tools.right_foot.label>right foot</BlondThrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <BlondThrumbo.tools.head.label>head</BlondThrumbo.tools.head.label>
+  <!-- EN: ginger thrumbo -->
+  <GingerThrumbo.label>ginger thrumbo</GingerThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. -->
+  <GingerThrumbo.description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.
+
+Legends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down.</GingerThrumbo.description>
+  <!-- EN: horn -->
+  <GingerThrumbo.tools.horn.label>horn</GingerThrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <GingerThrumbo.tools.left_foot.label>left foot</GingerThrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <GingerThrumbo.tools.right_foot.label>right foot</GingerThrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <GingerThrumbo.tools.head.label>head</GingerThrumbo.tools.head.label>
+  <!-- EN: silver thrumbo -->
+  <SilverThrumbo.label>silver thrumbo</SilverThrumbo.label>
+  <!-- EN: A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.\n\nLegends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down. -->
+  <SilverThrumbo.description>A gigantic, graceful creature of unknown origin. The thrumbo is gentle by nature, but extremely dangerous when enraged. While its long fur is exceptionally beautiful, its hide is also incredibly resistant to damage. Its razor-sharp horn fetches a huge price.
+
+Legends say that an old thrumbo is the wisest creature in the universe - it simply chooses not to speak. This different color variation of Thrumbo is not only differently colored, but also bigger and much more dangerous. It is believed these Thrumbos were genetically made by farmers as working animals, due to their fur growing much faster and their milk being very tasty. They are much stronger than White Thrumbos, and this can make them much harder to take down.</SilverThrumbo.description>
+  <!-- EN: horn -->
+  <SilverThrumbo.tools.horn.label>horn</SilverThrumbo.tools.horn.label>
+  <!-- EN: left foot -->
+  <SilverThrumbo.tools.left_foot.label>left foot</SilverThrumbo.tools.left_foot.label>
+  <!-- EN: right foot -->
+  <SilverThrumbo.tools.right_foot.label>right foot</SilverThrumbo.tools.right_foot.label>
+  <!-- EN: head -->
+  <SilverThrumbo.tools.head.label>head</SilverThrumbo.tools.head.label>
+</LanguageData>

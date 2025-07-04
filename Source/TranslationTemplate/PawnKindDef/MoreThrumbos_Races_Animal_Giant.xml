@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bionic damaged thrumbo -->
+  <BionicDamagedThrumboPawn.label>bionic damaged thrumbo</BionicDamagedThrumboPawn.label>
+  <!-- EN: thrumbo assembly -->
+  <BionicDamagedThrumboPawn.lifeStages.thrumbo_assembly.label>thrumbo assembly</BionicDamagedThrumboPawn.lifeStages.thrumbo_assembly.label>
+  <!-- EN: thrumbo assembly -->
+  <BionicDamagedThrumboPawn.lifeStages.thrumbo_assembly.labelPlural>thrumbo assembly</BionicDamagedThrumboPawn.lifeStages.thrumbo_assembly.labelPlural>
+  <!-- EN: bionic thrumbo -->
+  <BionicThrumboPawn.label>bionic thrumbo</BionicThrumboPawn.label>
+  <!-- EN: bionic thrumbo calf -->
+  <BionicThrumboPawn.lifeStages.bionic_thrumbo_calf.label>bionic thrumbo calf</BionicThrumboPawn.lifeStages.bionic_thrumbo_calf.label>
+  <!-- EN: bionic thrumbo calves -->
+  <BionicThrumboPawn.lifeStages.bionic_thrumbo_calf.labelPlural>bionic thrumbo calves</BionicThrumboPawn.lifeStages.bionic_thrumbo_calf.labelPlural>
+  <!-- EN: black thrumbo -->
+  <BlackThrumboPawn.label>black thrumbo</BlackThrumboPawn.label>
+  <!-- EN: black thrumbo calf -->
+  <BlackThrumboPawn.lifeStages.black_thrumbo_calf.label>black thrumbo calf</BlackThrumboPawn.lifeStages.black_thrumbo_calf.label>
+  <!-- EN: black thrumbo calves -->
+  <BlackThrumboPawn.lifeStages.black_thrumbo_calf.labelPlural>black thrumbo calves</BlackThrumboPawn.lifeStages.black_thrumbo_calf.labelPlural>
+  <!-- EN: Blond thrumbo -->
+  <BlondThrumboPawn.label>Blond thrumbo</BlondThrumboPawn.label>
+  <!-- EN: Blonde thrumbo -->
+  <BlondThrumboPawn.labelFemale>Blonde thrumbo</BlondThrumboPawn.labelFemale>
+  <!-- EN: Blond thrumbo calf -->
+  <BlondThrumboPawn.lifeStages.Blond_thrumbo_calf.label>Blond thrumbo calf</BlondThrumboPawn.lifeStages.Blond_thrumbo_calf.label>
+  <!-- EN: blond thrumbo calves -->
+  <BlondThrumboPawn.lifeStages.Blond_thrumbo_calf.labelPlural>blond thrumbo calves</BlondThrumboPawn.lifeStages.Blond_thrumbo_calf.labelPlural>
+  <!-- EN: ginger thrumbo -->
+  <GingerThrumboPawn.label>ginger thrumbo</GingerThrumboPawn.label>
+  <!-- EN: ginger thrumbo calf -->
+  <GingerThrumboPawn.lifeStages.ginger_thrumbo_calf.label>ginger thrumbo calf</GingerThrumboPawn.lifeStages.ginger_thrumbo_calf.label>
+  <!-- EN: ginger thrumbo calves -->
+  <GingerThrumboPawn.lifeStages.ginger_thrumbo_calf.labelPlural>ginger thrumbo calves</GingerThrumboPawn.lifeStages.ginger_thrumbo_calf.labelPlural>
+  <!-- EN: silver thrumbo -->
+  <SilverThrumboPawn.label>silver thrumbo</SilverThrumboPawn.label>
+  <!-- EN: Silver thrumbo calf -->
+  <SilverThrumboPawn.lifeStages.Silver_thrumbo_calf.label>Silver thrumbo calf</SilverThrumboPawn.lifeStages.Silver_thrumbo_calf.label>
+  <!-- EN: silver thrumbo calves -->
+  <SilverThrumboPawn.lifeStages.Silver_thrumbo_calf.labelPlural>silver thrumbo calves</SilverThrumboPawn.lifeStages.Silver_thrumbo_calf.labelPlural>
+</LanguageData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make 4x thrumbo cheese -->
+  <Make4xMealThrumboCheese.label>make 4x thrumbo cheese</Make4xMealThrumboCheese.label>
+  <!-- EN: Make 4x the ammount of the best cheese in all of the Rim. This cheese is known to be luxurious in all sectors. Some rich traders go to rimworlds just to get this cheese. -->
+  <Make4xMealThrumboCheese.description>Make 4x the ammount of the best cheese in all of the Rim. This cheese is known to be luxurious in all sectors. Some rich traders go to rimworlds just to get this cheese.</Make4xMealThrumboCheese.description>
+  <!-- EN: Making thrumbo cheese. -->
+  <Make4xMealThrumboCheese.jobString>Making thrumbo cheese.</Make4xMealThrumboCheese.jobString>
+  <!-- EN: make 4x white chocolate -->
+  <Make4xWhiteChocolate.label>make 4x white chocolate</Make4xWhiteChocolate.label>
+  <!-- EN: Make 4x the ammount of white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim. -->
+  <Make4xWhiteChocolate.description>Make 4x the ammount of white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</Make4xWhiteChocolate.description>
+  <!-- EN: Making white chocolate. -->
+  <Make4xWhiteChocolate.jobString>Making white chocolate.</Make4xWhiteChocolate.jobString>
+  <!-- EN: make thrumbo cheese -->
+  <MakeMealThrumboCheese.label>make thrumbo cheese</MakeMealThrumboCheese.label>
+  <!-- EN: Make one of best cheeses in all of Rim. this cheese is know to be luxurious in all sectors. some rich traders go to Rim worlds just to get this cheese. -->
+  <MakeMealThrumboCheese.description>Make one of best cheeses in all of Rim. this cheese is know to be luxurious in all sectors. some rich traders go to Rim worlds just to get this cheese.</MakeMealThrumboCheese.description>
+  <!-- EN: Making thrumbo cheese. -->
+  <MakeMealThrumboCheese.jobString>Making thrumbo cheese.</MakeMealThrumboCheese.jobString>
+  <!-- EN: make white chocolate -->
+  <MakeWhiteChocolate.label>make white chocolate</MakeWhiteChocolate.label>
+  <!-- EN: Make white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim. -->
+  <MakeWhiteChocolate.description>Make white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</MakeWhiteChocolate.description>
+  <!-- EN: Making white chocolate. -->
+  <MakeWhiteChocolate.jobString>Making white chocolate.</MakeWhiteChocolate.jobString>
+</LanguageData>

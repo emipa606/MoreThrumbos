@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Thrumbo Fury -->
+  <GingerThrumboRage.label>Thrumbo Fury</GingerThrumboRage.label>
+  <!-- EN: Thrumbo is Angry! -->
+  <GingerThrumboRage.description>Thrumbo is Angry!</GingerThrumboRage.description>
+  <!-- EN: Disrupted -->
+  <GingerThrumboRage.stages.Disrupted.label>Disrupted</GingerThrumboRage.stages.Disrupted.label>
+  <!-- EN: Poked -->
+  <GingerThrumboRage.stages.Poked.label>Poked</GingerThrumboRage.stages.Poked.label>
+  <!-- EN: Cranky -->
+  <GingerThrumboRage.stages.Cranky.label>Cranky</GingerThrumboRage.stages.Cranky.label>
+  <!-- EN: Angry -->
+  <GingerThrumboRage.stages.Angry.label>Angry</GingerThrumboRage.stages.Angry.label>
+  <!-- EN: Raging -->
+  <GingerThrumboRage.stages.Raging.label>Raging</GingerThrumboRage.stages.Raging.label>
+</LanguageData>

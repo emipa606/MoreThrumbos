@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MakeMealThrumboCheese</defName>
+    <label>make thrumbo cheese</label>
+    <description>Make one of best cheeses in all of Rim. this cheese is know to be luxurious in all sectors. some rich traders go to Rim worlds just to get this cheese.</description>
+    <jobString>Making thrumbo cheese.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboMilk</li>
+          </thingDefs>
+        </filter>
+        <count>15.0</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealThrumboCheese>8</MealThrumboCheese>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>MakeWhiteChocolate</defName>
+    <label>make white chocolate</label>
+    <description>Make white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</description>
+    <jobString>Making white chocolate.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboMilk</li>
+          </thingDefs>
+        </filter>
+        <count>15.0</count>
+      </li>
+    </ingredients>
+    <products>
+      <WhiteChocolate>10</WhiteChocolate>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- 4x Bulk Cooking -->
+  <RecipeDef ParentName="CookMealBase">
+    <defName>Make4xMealThrumboCheese</defName>
+    <label>make 4x thrumbo cheese</label>
+    <description>Make 4x the ammount of the best cheese in all of the Rim. This cheese is known to be luxurious in all sectors. Some rich traders go to rimworlds just to get this cheese.</description>
+    <jobString>Making thrumbo cheese.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboMilk</li>
+          </thingDefs>
+        </filter>
+        <count>60.0</count>
+      </li>
+    </ingredients>
+    <products>
+      <MealThrumboCheese>32</MealThrumboCheese>
+    </products>
+    <skillRequirements>
+      <Cooking>12</Cooking>
+    </skillRequirements>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealBase">
+    <defName>Make4xWhiteChocolate</defName>
+    <label>make 4x white chocolate</label>
+    <description>Make 4x the ammount of white chocolate from Ginger thrumbo milk. This is the most valued chocolate in all of the Rim.</description>
+    <jobString>Making white chocolate.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboMilk</li>
+          </thingDefs>
+        </filter>
+        <count>60.0</count>
+      </li>
+    </ingredients>
+    <products>
+      <WhiteChocolate>40</WhiteChocolate>
+    </products>
+    <skillRequirements>
+      <Cooking>14</Cooking>
+    </skillRequirements>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

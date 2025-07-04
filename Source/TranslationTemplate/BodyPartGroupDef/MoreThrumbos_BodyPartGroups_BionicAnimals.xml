@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: front left leg -->
+  <FrontLeftPlasteelHydraulicLeg.label>front left leg</FrontLeftPlasteelHydraulicLeg.label>
+  <!-- EN: front left leg -->
+  <FrontLeftPlasteelLeg.label>front left leg</FrontLeftPlasteelLeg.label>
+  <!-- EN: front left leg -->
+  <FrontLeftSteelLeg.label>front left leg</FrontLeftSteelLeg.label>
+  <!-- EN: front right leg -->
+  <FrontRightPlasteelHydraulicLeg.label>front right leg</FrontRightPlasteelHydraulicLeg.label>
+  <!-- EN: front right leg -->
+  <FrontRightPlasteelLeg.label>front right leg</FrontRightPlasteelLeg.label>
+  <!-- EN: front right leg -->
+  <FrontRightSteelLeg.label>front right leg</FrontRightSteelLeg.label>
+  <!-- EN: plasteel head -->
+  <PlasteelHeadAttackTool.label>plasteel head</PlasteelHeadAttackTool.label>
+  <!-- EN: horn -->
+  <PlasteelHornAttackTool.label>horn</PlasteelHornAttackTool.label>
+  <!-- EN: tail -->
+  <ReinforcedTail.label>tail</ReinforcedTail.label>
+  <!-- EN: head -->
+  <SteelHeadAttackTool.label>head</SteelHeadAttackTool.label>
+  <!-- EN: teeth -->
+  <SteelTeeth.label>teeth</SteelTeeth.label>
+</LanguageData>

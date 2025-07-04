@@ -12,13 +12,13 @@ public class IncidentWorker_SpecialWorker : IncidentWorker
         var map = (Map)parms.target;
         return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout) &&
                map.mapTemperature.SeasonAndOutdoorTemperatureAcceptableFor(ThingDefOf.Thrumbo) &&
-               TryFindEntryCell(map, out _);
+               tryFindEntryCell(map, out _);
     }
 
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
         var map = (Map)parms.target;
-        if (!TryFindEntryCell(map, out var cell))
+        if (!tryFindEntryCell(map, out var cell))
         {
             return false;
         }
@@ -53,7 +53,7 @@ public class IncidentWorker_SpecialWorker : IncidentWorker
         return true;
     }
 
-    private bool TryFindEntryCell(Map map, out IntVec3 cell)
+    private static bool tryFindEntryCell(Map map, out IntVec3 cell)
     {
         return RCellFinder.TryFindRandomPawnEntryCell(out cell, map, CellFinder.EdgeRoadChance_Animal + 0.2f);
     }

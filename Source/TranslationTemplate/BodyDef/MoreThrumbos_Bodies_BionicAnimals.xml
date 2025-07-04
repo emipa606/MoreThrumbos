@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: quadruped animal -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.label>quadruped animal</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.label>
+  <!-- EN: left lung -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_lung.customLabel>left lung</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_lung.customLabel>right lung</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_kidney.customLabel>left kidney</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_kidney.customLabel>right kidney</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left archotech eye -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_archotech_eye.customLabel>left archotech eye</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_archotech_eye.customLabel>
+  <!-- EN: right archotech eye -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_archotech_eye.customLabel>right archotech eye</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_archotech_eye.customLabel>
+  <!-- EN: left bionic ear -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_bionic_ear.customLabel>left bionic ear</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_bionic_ear.customLabel>
+  <!-- EN: right bionic ear -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_bionic_ear.customLabel>right bionic ear</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_bionic_ear.customLabel>
+  <!-- EN: front left steel leg -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.customLabel>front left steel leg</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.customLabel>
+  <!-- EN: front left plasteel hydraulic hoof -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.parts.front_left_plasteel_hydraulic_hoof.customLabel>front left plasteel hydraulic hoof</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.parts.front_left_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: front right steel leg -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.customLabel>front right steel leg</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.customLabel>
+  <!-- EN: front right plasteel hydraulic hoof -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.parts.front_right_plasteel_hydraulic_hoof.customLabel>front right plasteel hydraulic hoof</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.parts.front_right_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: rear left steel leg -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.customLabel>rear left steel leg</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.customLabel>
+  <!-- EN: rear left plasteel hydraulic hoof -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.parts.rear_left_plasteel_hydraulic_hoof.customLabel>rear left plasteel hydraulic hoof</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.parts.rear_left_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: rear right steel leg -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.customLabel>rear right steel leg</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.customLabel>
+  <!-- EN: rear right plasteel hydraulic hoof -->
+  <AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.parts.rear_right_plasteel_hydraulic_hoof.customLabel>rear right plasteel hydraulic hoof</AncientThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.parts.rear_right_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: quadruped animal -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.label>quadruped animal</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.label>
+  <!-- EN: left lung -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_lung.customLabel>left lung</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_lung.customLabel>
+  <!-- EN: right lung -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_lung.customLabel>right lung</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_lung.customLabel>
+  <!-- EN: left kidney -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_kidney.customLabel>left kidney</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.left_kidney.customLabel>
+  <!-- EN: right kidney -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_kidney.customLabel>right kidney</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.right_kidney.customLabel>
+  <!-- EN: left archotech eye -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_archotech_eye.customLabel>left archotech eye</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_archotech_eye.customLabel>
+  <!-- EN: right archotech eye -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_archotech_eye.customLabel>right archotech eye</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_archotech_eye.customLabel>
+  <!-- EN: left bionic ear -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_bionic_ear.customLabel>left bionic ear</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.left_bionic_ear.customLabel>
+  <!-- EN: right bionic ear -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_bionic_ear.customLabel>right bionic ear</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.PlasteelThrumboNeck.parts.PlasteelThrumboHead.parts.right_bionic_ear.customLabel>
+  <!-- EN: front left steel leg -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.customLabel>front left steel leg</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.customLabel>
+  <!-- EN: front left plasteel hydraulic hoof -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.parts.front_left_plasteel_hydraulic_hoof.customLabel>front left plasteel hydraulic hoof</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_left_steel_leg.parts.front_left_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: front right steel leg -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.customLabel>front right steel leg</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.customLabel>
+  <!-- EN: front right plasteel hydraulic hoof -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.parts.front_right_plasteel_hydraulic_hoof.customLabel>front right plasteel hydraulic hoof</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.front_right_steel_leg.parts.front_right_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: rear left steel leg -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.customLabel>rear left steel leg</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.customLabel>
+  <!-- EN: rear left plasteel hydraulic hoof -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.parts.rear_left_plasteel_hydraulic_hoof.customLabel>rear left plasteel hydraulic hoof</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_left_steel_leg.parts.rear_left_plasteel_hydraulic_hoof.customLabel>
+  <!-- EN: rear right steel leg -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.customLabel>rear right steel leg</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.customLabel>
+  <!-- EN: rear right plasteel hydraulic hoof -->
+  <BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.parts.rear_right_plasteel_hydraulic_hoof.customLabel>rear right plasteel hydraulic hoof</BionicThrumboQuadrupedAnimalWithHoovesAndHorn.corePart.parts.rear_right_steel_leg.parts.rear_right_plasteel_hydraulic_hoof.customLabel>
+</LanguageData>

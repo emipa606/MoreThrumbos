@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: comms relay -->
+  <ModifiedCommsRelay.label>comms relay</ModifiedCommsRelay.label>
+  <!-- EN: anthena -->
+  <StrongAnthena.label>anthena</StrongAnthena.label>
+  <!-- EN: thrumbo control module -->
+  <ThrumboControlModule.label>thrumbo control module</ThrumboControlModule.label>
+</LanguageData>

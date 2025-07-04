@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ancient bionic thrumbo horn -->
+  <AncientBionicThrumboHorn.label>ancient bionic thrumbo horn</AncientBionicThrumboHorn.label>
+  <!-- EN: An ancient bionic Thrumbo horn. It's broken, but it has its value. -->
+  <AncientBionicThrumboHorn.description>An ancient bionic Thrumbo horn. It's broken, but it has its value.</AncientBionicThrumboHorn.description>
+  <!-- EN: point -->
+  <AncientBionicThrumboHorn.tools.point.label>point</AncientBionicThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <AncientBionicThrumboHorn.tools.base.label>base</AncientBionicThrumboHorn.tools.base.label>
+  <!-- EN: bionic thrumbo horn -->
+  <BionicThrumboHorn.label>bionic thrumbo horn</BionicThrumboHorn.label>
+  <!-- EN: A resilient, heavy and very strong bionic Thrumbo horn. It's too heavy to be used as a held weapon, but it has its value. -->
+  <BionicThrumboHorn.description>A resilient, heavy and very strong bionic Thrumbo horn. It's too heavy to be used as a held weapon, but it has its value.</BionicThrumboHorn.description>
+  <!-- EN: point -->
+  <BionicThrumboHorn.tools.point.label>point</BionicThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <BionicThrumboHorn.tools.base.label>base</BionicThrumboHorn.tools.base.label>
+  <!-- EN: black thrumbo horn -->
+  <BlackThrumboHorn.label>black thrumbo horn</BlackThrumboHorn.label>
+  <!-- EN: A black Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon. -->
+  <BlackThrumboHorn.description>A black Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</BlackThrumboHorn.description>
+  <!-- EN: blond thrumbo horn -->
+  <BlondThrumboHorn.label>blond thrumbo horn</BlondThrumboHorn.label>
+  <!-- EN: A blond Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon. -->
+  <BlondThrumboHorn.description>A blond Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</BlondThrumboHorn.description>
+  <!-- EN: point -->
+  <BlondThrumboHorn.tools.point.label>point</BlondThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <BlondThrumboHorn.tools.base.label>base</BlondThrumboHorn.tools.base.label>
+  <!-- EN: ginger thrumbo horn -->
+  <GingerThrumboHorn.label>ginger thrumbo horn</GingerThrumboHorn.label>
+  <!-- EN: A ginger Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon. -->
+  <GingerThrumboHorn.description>A ginger Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</GingerThrumboHorn.description>
+  <!-- EN: point -->
+  <GingerThrumboHorn.tools.point.label>point</GingerThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <GingerThrumboHorn.tools.base.label>base</GingerThrumboHorn.tools.base.label>
+  <!-- EN: silver thrumbo horn -->
+  <SilverThrumboHorn.label>silver thrumbo horn</SilverThrumboHorn.label>
+  <!-- EN: A silver Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon. -->
+  <SilverThrumboHorn.description>A silver Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</SilverThrumboHorn.description>
+  <!-- EN: point -->
+  <SilverThrumboHorn.tools.point.label>point</SilverThrumboHorn.tools.point.label>
+  <!-- EN: base -->
+  <SilverThrumboHorn.tools.base.label>base</SilverThrumboHorn.tools.base.label>
+</LanguageData>
