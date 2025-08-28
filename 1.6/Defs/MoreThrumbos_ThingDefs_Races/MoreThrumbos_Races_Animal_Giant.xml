@@ -88,6 +88,9 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>GingerThrumboLeather</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>40</gestationPeriodDays>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
@@ -95,6 +98,9 @@
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>
@@ -275,6 +281,9 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>BlondThrumboLeather</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
@@ -282,6 +291,9 @@
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>
@@ -452,12 +464,18 @@
       <meatLabel>Thrumbo Meat</meatLabel>
       <leatherDef>Leather_Thrumbo</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <gestationPeriodDays>20</gestationPeriodDays>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
       <lifeExpectancy>3820</lifeExpectancy>
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>
@@ -637,6 +655,9 @@
       <meatLabel>Thrumbo Meat</meatLabel>
       <leatherDef>Leather_Thrumbo</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>20</gestationPeriodDays>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
@@ -644,6 +665,9 @@
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>
@@ -828,6 +852,9 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>GingerThrumboLeather</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnDamageChance>1.00</manhunterOnDamageChance>
@@ -835,6 +862,9 @@
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>
@@ -1015,6 +1045,9 @@
       <foodType>VegetarianRoughAnimal, DendrovoreAnimal</foodType>
       <leatherDef>BlondThrumboLeather</leatherDef>
       <trainability>Advanced</trainability>
+      <specialTrainables>
+        <li MayRequire="Ludeon.Rimworld.Odyssey">ThrumboRoar</li>
+      </specialTrainables>
       <packAnimal>true</packAnimal>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnDamageChance>0.80</manhunterOnDamageChance>
@@ -1022,6 +1055,9 @@
       <willNeverEat>
         <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
         <li MayRequire="Ludeon.RimWorld.Ideology">Plant_TreeGauranlen</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">Plant_TreePolux</li>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">Plant_TreeHarbinger</li>
+        <li MayRequire="Ludeon.RimWorld.Odyssey">Plant_TreeArchean</li>
       </willNeverEat>
       <lifeStageAges>
         <li>

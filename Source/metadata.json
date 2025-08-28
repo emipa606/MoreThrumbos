@@ -4,14 +4,15 @@
   "CanRemove": "2",
   "PreviewVersion": "1.6",
   "SocialImageSet": true,
-  "LastXmlCleaning": "2025-07-04T22:27:16.9395344+02:00",
+  "LastXmlCleaning": "2025-08-28T22:39:36.3417978+02:00",
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 4659.0,
-  "LinesOfXML": 149167.0,
+  "LinesOfCode": 4659,
+  "LinesOfXML": 151213,
   "SearchTags": [
     " additional",
     " thrumbo"
-  ]
+  ],
+  "CodeBaseSize": 82
 }
