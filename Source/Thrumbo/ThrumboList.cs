@@ -3,7 +3,7 @@ using Verse;
 
 namespace Thrumbo;
 
-public class ThrumboList
+public static class ThrumboList
 {
     public static readonly List<PawnKindDef> Thrumbos =
     [

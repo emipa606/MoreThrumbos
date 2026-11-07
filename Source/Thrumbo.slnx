@@ -3,4 +3,57 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="Thrumbo/Thrumbo.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_RecipeDefs/">
+    <File Path="../1.7/Defs/MoreThrumbos_RecipeDefs/MoreThrumbos_Recipes_Meals.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_ThoughtDefs/">
+    <File Path="../1.7/Defs/MoreThrumbos_ThoughtDefs/MoreThrumbos_Thoughts_Memory_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_ThingDefs_Items/">
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Exotic.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Food.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Luxury.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Resource_AnimalProduct.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Resource_Stuff_Leather.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Items/MoreThrumbos_Items_Resource_Stuff.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_MechanoidBodies/">
+    <File Path="../1.7/Defs/MoreThrumbos_MechanoidBodies/MoreThrumbos_Bodies_Mechanoid.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_MechanoidBodies/MoreThrumbos_BodyParts_Mechanoid.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_Joy/">
+    <File Path="../1.7/Defs/MoreThrumbos_Joy/MoreThrumbos_JoyGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_HediffDefs/">
+    <File Path="../1.7/Defs/MoreThrumbos_HediffDefs/MoreThrumbos_Hediffs_BlondThrumboRage.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_HediffDefs/MoreThrumbos_Hediffs_GingerThrumboRage.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_BionicBodies/">
+    <File Path="../1.7/Defs/MoreThrumbos_BionicBodies/MoreThrumbos_Bodies_BionicAnimals.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_BionicBodies/MoreThrumbos_BodyPartGroups_BionicAnimals.xml" />
+    <File Path="../1.7/Defs/MoreThrumbos_BionicBodies/MoreThrumbos_BodyParts_Bionic_General.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_ThingDefs_Races/">
+    <File Path="../1.7/Defs/MoreThrumbos_ThingDefs_Races/MoreThrumbos_Races_Animal_Giant.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_HediffGiverSetDefs/">
+    <File Path="../1.7/Defs/MoreThrumbos_HediffGiverSetDefs/MoreThrumbos_HediffGiverSets.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/MoreThrumbos_Incident/">
+    <File Path="../1.7/Defs/MoreThrumbos_Incident/MoreThrumbos_Incident.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/MoreThrumbos_Avali.xml" />
+    <File Path="../1.7/Patches/MoreThrumbos_GiddyUpSaddlesPatch.xml" />
+    <File Path="../1.7/Patches/MoreThrumbos_PatchAnimalGear.xml" />
+    <File Path="../1.7/Patches/MoreThrumbos_PatchGloomyFurniture.xml" />
+    <File Path="../1.7/Patches/MoreThrumbos_PatchVanilla.xml" />
+    <File Path="../1.7/Patches/MoreThrumbos_PatchVGP.xml" />
+  </Folder>
 </Solution>

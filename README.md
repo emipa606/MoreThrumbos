@@ -1,6 +1,6 @@
 # [More Thrumbos (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2786832432)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Cenbess mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1789924054
@@ -8,9 +8,9 @@ with permission
 
 - [Retexture mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2849164933) by Maximilian
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 DISCLAIMER (Writen 3.11.2020)
 My tiem now is very limited due to complications made by Covid-19. This mod is not death and i'm not even considering about it. I will continue updates when my time will be more free and there will be much less complications ahead. Thank you all for your patience and support by playing mod itself. Good luck and ease with these torublesome times!
@@ -122,13 +122,13 @@ Thanks <ins>**Ogliss**</ins> for helping me with patches.
 - Added Giddy-Up! Add-on: Animal Saddles compatibility.
 - Added Animal Gear Basic compatibility.
 
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -136,4 +136,4 @@ Thanks <ins>**Ogliss**</ins> for helping me with patches.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/MoreThrumbos?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2786832432) | tags:  additional,  thrumbo
+[![Image](https://img.shields.io/github/v/release/emipa606/MoreThrumbos?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2786832432) | additional, thrumbo

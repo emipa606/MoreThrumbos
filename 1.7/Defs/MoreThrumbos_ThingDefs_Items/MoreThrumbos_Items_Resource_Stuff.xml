@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
+  <!--=============================== Wool ================================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ResourceBase" Name="ThrumboWoolBase" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>0.018</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+    </statBases>
+    <stackLimit>250</stackLimit>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--============================ GingerWool =============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ThrumboWoolBase">
+    <defName>GingerThrumboWool</defName>
+    <label>ginger thrumbo wool</label>
+    <description>Soft, light and resistant Ginger Thrumbo wool. This material is given a high price in many sectors due to its properties. Anyone who can find, tame and breed these magnificient animals for wool production are very lucky, for they've found a gold mine.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/GingerThrumboWool</texPath>
+      <color>(212,212,150)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>21.7</MarketValue>
+      <StuffPower_Armor_Blunt>0.30</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.20</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.50</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>50</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(212,212,150)</color>
+      <statFactors>
+        <Flammability>0.5</Flammability>
+      </statFactors>
+      <commonality>0.0010</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--============================ BlondWool ==============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ThrumboWoolBase">
+    <defName>BlondThrumboWool</defName>
+    <label>blond thrumbo wool</label>
+    <description>Soft and light, resistant Blond Thrumbo wool. This material is well priced in any sectors due to it's rarity, anyone who can find, tame and breed these magnificient animals for wool production is well worthy trader among all traders.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/BlondThrumboWool</texPath>
+      <color>(229,229,189)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>18.5</MarketValue>
+      <StuffPower_Armor_Blunt>0.18</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.80</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.34</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>60</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>60</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(229,229,189)</color>
+      <statFactors>
+        <Flammability>0.3</Flammability>
+      </statFactors>
+      <commonality>0.0030</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--============================ WhiteWool ==============================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ThrumboWoolBase">
+    <defName>WhiteThrumboWool</defName>
+    <label>white thrumbo wool</label>
+    <description>Soft and light, extremely resistant Thrumbo wool. This material is well priced in any sectors due to it's rarity, anyone who can find, tame and breed these magnificient animals for wool production is well worthy trader among all traders.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/WhiteThrumboWool</texPath>
+      <color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <MarketValue>27.5</MarketValue>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.20</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>65</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(255,255,255)</color>
+      <statFactors>
+        <Flammability>0.3</Flammability>
+      </statFactors>
+      <commonality>0.0030</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--=================== TalAlarian Black Wool ===========================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ThrumboWoolBase">
+    <defName>BlackThrumboWool</defName>
+    <label>black thrumbo wool</label>
+    <description>Soft and light, extremely resistant and protective black Thrumbo wool. This material is prized in all sectors due to its extreme rarity as Tal'Arian Thrumbos don't appear very often in nature.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/BlackThrumboWool</texPath>
+      <color>(000,000,000)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <MarketValue>47.5</MarketValue>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>3.20</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>65</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(000,000,000)</color>
+      <statFactors>
+        <Flammability>0.3</Flammability>
+      </statFactors>
+      <commonality>0.0030</commonality>
+    </stuffProps>
+  </ThingDef>
+  <!--=====================================================================-->
+  <!--==================== TalAlarian Silver Wool =========================-->
+  <!--=====================================================================-->
+  <ThingDef ParentName="ThrumboWoolBase">
+    <defName>SilverThrumboWool</defName>
+    <label>silver thrumbo wool</label>
+    <description>Soft and light, extremely resistant and protective black Thrumbo wool. This material is prized in all sectors due to its extreme rarity as Tal'Arian Thrumbos don't appear very often in nature.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/SilverThrumboWool</texPath>
+      <color>(230,230,230)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <MarketValue>35.5</MarketValue>
+      <Mass>0.025</Mass>
+      <StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.20</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>65</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(230,230,230)</color>
+      <statFactors>
+        <Flammability>0.1</Flammability>
+      </statFactors>
+      <commonality>0.0010</commonality>
+    </stuffProps>
+  </ThingDef>
+</Defs>

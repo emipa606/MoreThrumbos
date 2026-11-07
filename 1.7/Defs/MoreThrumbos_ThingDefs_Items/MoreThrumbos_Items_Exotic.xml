@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--=====================================================================-->
+  <!--=============================== Horn ================================-->
+  <!--=====================================================================-->
+  <ThingDef Abstract="True" Name="ThrumboHornBase" ParentName="ResourceVerbBase">
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <useHitPoints>true</useHitPoints>
+    <stackLimit>16</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <ThingDef ParentName="ThrumboHornBase">
+    <defName>GingerThrumboHorn</defName>
+    <label>ginger thrumbo horn</label>
+    <description>A ginger Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/GingerThrumboHorn/GingerThrumboHorn</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>2</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>38</power>
+        <cooldownTime>1.4</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="ThrumboHornBase">
+    <defName>BlondThrumboHorn</defName>
+    <label>blond thrumbo horn</label>
+    <description>A blond Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy, as well as a more than deadly weapon.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/BlondThrumboHorn/BlondThrumboHorn</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>800</MarketValue>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Mass>1.5</Mass>
+      <Flammability>0.05</Flammability>
+      <DeteriorationRate>0.05</DeteriorationRate>
+    </statBases>
+    <stackLimit>35</stackLimit>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!--=============== Bionic Thrumbo Horn ====================-->
+  <ThingDef ParentName="ThrumboHornBase">
+    <defName>BionicThrumboHorn</defName>
+    <label>bionic thrumbo horn</label>
+    <description>A resilient, heavy and very strong bionic Thrumbo horn. It's too heavy to be used as a held weapon, but it has its value.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/BionicThrumboHorn/BionicThrumboHorn</texPath>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2500</MarketValue>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Mass>16</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!--=============== Ancient Bionic Thrumbo Horn ====================-->
+  <ThingDef ParentName="ThrumboHornBase">
+    <defName>AncientBionicThrumboHorn</defName>
+    <label>ancient bionic thrumbo horn</label>
+    <description>An ancient bionic Thrumbo horn. It's broken, but it has its value.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/BionicThrumboHorn/AncientBionicThrumboHorn</texPath>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>6</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!--=============== TalAlarian Black Thrumbo Horn ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>BlackThrumboHorn</defName>
+    <label>black thrumbo horn</label>
+    <description>A black Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</description>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>New/MoreThrumbos_Items/BlackThrumboHorn/BlackThrumboHorn</texPath>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>16</stackLimit>
+    <thingCategories>
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>8</Mass>
+    </statBases>
+    <tools Inherit="False" />
+  </ThingDef>
+  <!--=============== TalAlarian Silver Thrumbo Horn ====================-->
+  <ThingDef ParentName="ThrumboHornBase">
+    <defName>SilverThrumboHorn</defName>
+    <label>silver thrumbo horn</label>
+    <description>A silver Thrumbo's horn. It's razor-sharp, hard as steel, and priceless in most markets. This is truly a magnificent trophy. This horn cannot be used as a melee weapon.</description>
+    <graphicData>
+      <texPath>New/MoreThrumbos_Items/SilverThrumboHorn/SilverThrumboHorn</texPath>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4500</MarketValue>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>8</Mass>
+    </statBases>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>1</cooldownTime>
+      </li>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+</Defs>

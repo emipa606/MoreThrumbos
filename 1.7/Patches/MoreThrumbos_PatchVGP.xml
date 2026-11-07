@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Thrumbos Thrumbos Evrywhere :3
+		
+				<li Class="PatchOperationTest">
+				  <xpath>Defs/ThingDef[defName="Oven"]</xpath>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="Oven"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Oven"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Oven"]/recipes></xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="ElectricOven"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="ElectricOven"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="ElectricOven"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="HandCanningstove"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="HandCanningstove"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="HandCanningstove"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="Canningstove"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Canningstove"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeMealThrumboCheese</li>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Canningstove"]/recipes</xpath>
+					<value>
+						<li>MakeMealThrumboCheese</li>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="FueledCandyTable"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="FueledCandyTable"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="FueledCandyTable"]/recipes</xpath>
+					<value>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				<li Class="PatchOperationConditional">
+				  <xpath>Defs/ThingDef[defName="CandyTable"]/recipes</xpath>
+				  <nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CandyTable"]</xpath>
+					<value>
+						<recipes>
+                            <li>MakeWhiteChocolate</li>
+						</recipes>
+					</value>
+				  </nomatch>
+				  <match Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="CandyTable"]/recipes</xpath>
+					<value>
+						<li>MakeWhiteChocolate</li>
+					</value>
+				  </match>
+				</li>
+				
+				-->
+      <!-- Oven -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Oven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>Oven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Oven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>Oven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Oven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>Oven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Oven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>Oven</li>
+          </value>
+        </match>
+      </li>
+      <!-- ElectricOven -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricOven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>ElectricOven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricOven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>ElectricOven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricOven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>ElectricOven</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="ElectricOven"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>ElectricOven</li>
+          </value>
+        </match>
+      </li>
+      <!-- HandCanningstove -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="HandCanningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>HandCanningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="HandCanningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>HandCanningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="HandCanningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>HandCanningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="HandCanningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>HandCanningstove</li>
+          </value>
+        </match>
+      </li>
+      <!-- Canningstove -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Canningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>Canningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Canningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>Canningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Canningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>Canningstove</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Canningstove"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>Canningstove</li>
+          </value>
+        </match>
+      </li>
+      <!-- FueledCandyTable -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="FueledCandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>FueledCandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="FueledCandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>FueledCandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="FueledCandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>FueledCandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="FueledCandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>FueledCandyTable</li>
+          </value>
+        </match>
+      </li>
+      <!-- CandyTable -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="CandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>CandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="CandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>CandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="CandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>CandyTable</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="CandyTable"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>CandyTable</li>
+          </value>
+        </match>
+      </li>
+      <!-- VG_Campfire -->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>VG_Campfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="MakeWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>VG_Campfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xMealThrumboCheese"]/recipeUsers</xpath>
+          <value>
+            <li>VG_Campfire</li>
+          </value>
+        </match>
+      </li>
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="VG_Campfire"]</xpath>
+        <match Class="PatchOperationAdd">
+          <xpath>Defs/RecipeDef[defName="Make4xWhiteChocolate"]/recipeUsers</xpath>
+          <value>
+            <li>VG_Campfire</li>
+          </value>
+        </match>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

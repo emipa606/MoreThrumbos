@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Muffalo"]/comps/li[@Class="GiddyUpCore.CompProperties_Overlay"]</xpath>
+      </li>
+      <!--==========  Ginger Thrumbo  ==========-->
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName = "GingerThrumbo"]</xpath>
+        <value>
+          <li Class="GiddyUpCore.DrawingOffsetPatch">
+            <eastOffsetCSV>-0.4,0,-0.5</eastOffsetCSV>
+            <westOffsetCSV>0.4,0,-0.5</westOffsetCSV>
+            <northOffsetCSV>0,0,-0.5</northOffsetCSV>
+            <southOffsetCSV>0,0,-0.5</southOffsetCSV>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "GingerThrumbo"]/comps</xpath>
+        <value>
+          <li Class="GiddyUpCore.CompProperties_Overlay">
+            <overlaySide>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_east</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlaySide>
+            <overlayFront>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_south</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlayFront>
+            <overlayBack>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_north</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlayBack>
+          </li>
+        </value>
+      </li>
+      <!--						
+                        <li Class="PatchOperationAdd">
+                            <xpath>/Defs/ThingDef[defName = "GingerThrumbo" and not(comps)]</xpath>
+                            <value>
+                                <comps>
+                                    <li Class="GiddyUpCore.CompProperties_Overlay">
+                                    <overlaySide>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_east</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlaySide>
+                                    <overlayFront>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_south</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlayFront>
+                                    <overlayBack>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_north</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlayBack>
+                                    </li>
+                                </comps>
+                            </value>
+                        </li>
+           -->
+      <!--==========  Blond Thrumbo  ==========-->
+      <li Class="PatchOperationAddModExtension">
+        <xpath>/Defs/ThingDef[defName = "BlondThrumbo"]</xpath>
+        <value>
+          <li Class="GiddyUpCore.DrawingOffsetPatch">
+            <eastOffsetCSV>-0.4,0,-0.5</eastOffsetCSV>
+            <westOffsetCSV>0.4,0,-0.5</westOffsetCSV>
+            <northOffsetCSV>0,0,-0.5</northOffsetCSV>
+            <southOffsetCSV>0,0,-0.5</southOffsetCSV>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName = "BlondThrumbo"]/comps</xpath>
+        <value>
+          <li Class="GiddyUpCore.CompProperties_Overlay">
+            <overlaySide>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_east</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlaySide>
+            <overlayFront>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_south</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlayFront>
+            <overlayBack>
+              <graphicDataDefault>
+                <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_north</texPath>
+                <graphicClass>Graphic_Single</graphicClass>
+                <drawSize>4.8</drawSize>
+                <drawRotated>false</drawRotated>
+              </graphicDataDefault>
+              <offsetDefault>(0,0,0,0)</offsetDefault>
+            </overlayBack>
+          </li>
+        </value>
+      </li>
+      <!--
+                        <li Class="PatchOperationAdd">
+                            <xpath>/Defs/ThingDef[defName = "BlondThrumbo" and not(comps)]</xpath>
+                            <value>
+                                <comps>
+                                    <li Class="GiddyUpCore.CompProperties_Overlay">
+                                    <overlaySide>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_east</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlaySide>
+                                    <overlayFront>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_south</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlayFront>
+                                    <overlayBack>
+                                    <graphicDataDefault>
+                                        <texPath>New/MoreThrumbos_Items/GiddyUpSaddles/GR_Saddle_MoreThrumbos_north</texPath>
+                                        <graphicClass>Graphic_Single</graphicClass>
+                                        <drawSize>4.8</drawSize>
+                                        <drawRotated>false</drawRotated>                              
+                                    </graphicDataDefault>                  
+                                    <offsetDefault>(0,0,0,0)</offsetDefault>
+                                    </overlayBack>
+                                    </li>
+                                </comps>
+                            </value>
+                        </li>
+						-->
+    </operations>
+  </Operation>
+</Patch>
